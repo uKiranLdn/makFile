@@ -1,0 +1,8 @@
+# Example make file
+
+Component: File1, File2, File3, File5
+Component: File4, FAIL_File6
+
+Depends: File5,FAIL_File6,File2
+Depends: File4, File5, File3
+LogDependencyTree: FALSE
